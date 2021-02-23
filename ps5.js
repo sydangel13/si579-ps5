@@ -31,11 +31,11 @@ console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
 
 
-var summer_words = [{word: "Swimming", size: "50"}, {word: "Hiking", size: "60"}, {word: "Sunshine", size: "70"}, {word: "Happy", size: "67"}, {word: "Drinking", size: "75"}, {word: "Heat", size: "50"}, {word: "fun", size: "85"}, {word: "sleeping", size: "30"}, {word: "popsicles", size: "60"}]
+var summer_words = [{word: "Swimming", size: "50"}, {word: "Hiking", size: "20"}, {word: "Sunshine", size: "54"}, {word: "Happy", size: "65"}, {word: "Drinking", size: "75"}, {word: "Heat", size: "50"}, {word: "fun", size: "65"}, {word: "sleeping", size: "37"}, {word: "popsicles", size: "30"}]
 
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
+var margin = {top: 35, right: 35, bottom: 35, left: 35},
     width = 960 - margin.left - margin.right,
-    height =  550 - margin.top - margin.bottom;
+    height =  750 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz").append("svg")
